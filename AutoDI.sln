@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A0490B4-5A8F-4B11-A4EB-F82CA70323E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{632BD297-0F83-4389-886E-02A27217D6DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDI.Tests", "test\AutoDI.Tests\AutoDI.Tests.csproj", "{754CC594-1732-4AF6-BA65-26A5DDE24E55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{754CC594-1732-4AF6-BA65-26A5DDE24E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754CC594-1732-4AF6-BA65-26A5DDE24E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754CC594-1732-4AF6-BA65-26A5DDE24E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754CC594-1732-4AF6-BA65-26A5DDE24E55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{754CC594-1732-4AF6-BA65-26A5DDE24E55} = {632BD297-0F83-4389-886E-02A27217D6DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ABA56BD-BCCF-4053-BFEA-FF747C2DDEBC}
+	EndGlobalSection
+EndGlobal
