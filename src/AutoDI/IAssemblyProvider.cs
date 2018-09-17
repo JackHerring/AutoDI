@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
 
-namespace AutoDI.Tests
+namespace AutoDI
 {
 	public interface IAssemblyProvider
 	{

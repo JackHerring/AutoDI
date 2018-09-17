@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AutoDI.Tests
+namespace AutoDI
 {
 	public interface IServiceTypeNameFilter
 	{

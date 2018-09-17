@@ -9,7 +9,10 @@ namespace AutoDI.Tests
 	    [Fact]
 	    public void ForImplementationTypeWithSameName_IsMatch()
 	    {
-		    Assert.True( new SameNameServiceTypeNameFilter().IsMatch( typeof( IThing ), typeof( Thing ) ) );
+		    var isMatch = new SameNameServiceTypeNameFilter()
+			    .IsMatch( typeof( IThing ), typeof( Thing ) );
+
+		    Assert.True( isMatch );
 	    }
     }
 

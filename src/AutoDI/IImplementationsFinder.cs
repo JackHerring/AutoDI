@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AutoDI.Tests
+namespace AutoDI
 {
-	public interface IImplementationFinder
+	internal interface IImplementationsFinder
 	{
 		List<Type> FindImplemenationsOf( Type serviceType );
 	}

@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A0490B4-5A8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{632BD297-0F83-4389-886E-02A27217D6DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDI.Tests", "test\AutoDI.Tests\AutoDI.Tests.csproj", "{754CC594-1732-4AF6-BA65-26A5DDE24E55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoDI.Tests", "test\AutoDI.Tests\AutoDI.Tests.csproj", "{754CC594-1732-4AF6-BA65-26A5DDE24E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDI", "src\AutoDI\AutoDI.csproj", "{0DE51702-7158-443E-87FE-85BE55909311}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{754CC594-1732-4AF6-BA65-26A5DDE24E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{754CC594-1732-4AF6-BA65-26A5DDE24E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{754CC594-1732-4AF6-BA65-26A5DDE24E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE51702-7158-443E-87FE-85BE55909311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE51702-7158-443E-87FE-85BE55909311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE51702-7158-443E-87FE-85BE55909311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE51702-7158-443E-87FE-85BE55909311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{754CC594-1732-4AF6-BA65-26A5DDE24E55} = {632BD297-0F83-4389-886E-02A27217D6DE}
+		{0DE51702-7158-443E-87FE-85BE55909311} = {4A0490B4-5A8F-4B11-A4EB-F82CA70323E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8ABA56BD-BCCF-4053-BFEA-FF747C2DDEBC}
